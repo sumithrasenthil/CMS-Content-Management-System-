@@ -5,7 +5,7 @@ var m=document.querySelector(".Menu");
 var M=document.querySelector("#Menu");
 C.addEventListener("click",change);
 M.addEventListener("click",visible);
-m.style.visibility="hidden";
+m.style.display="none";
 var choice=null;
 for(i=0;i<I.length;i++)
 {
@@ -29,8 +29,8 @@ function change(){
         O[i].disabled=true;
     }}
 function visible(){
-    if(m.style.visibility=="hidden")
-    m.style.visibility="visible";
+ if(m.style.display=="none")
+    m.style.display="block";
     else
-    m.style.visibility="hidden";
+    m.style.display="none";
 }
