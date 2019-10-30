@@ -38,9 +38,6 @@ function change(){
         op[i].disabled=true;
     }
 }
-function submit(){
-    document.getElementsByClassName("wafer")[0].style.visibility="visible";
-}
 m.addEventListener("click",visible);
 function visible(){
     if(M.style.visibility=="hidden")
