@@ -1,0 +1,124 @@
+body{
+    font-family: Roboto;
+    position:absolute;
+    top:0;
+    height:100%;
+    width:100%;
+    overflow:hidden;
+}
+body>header{
+    position:relative;
+    top:0;
+    width:99%;
+    height:5%;
+}
+header>img{
+    position:relative;
+    height:100%;
+}
+header>img[id="Menu"]{
+    float:right;
+    cursor:pointer;
+}
+body>div[class="buttons"]{
+    position:absolute;
+    top:20%;
+    left:25%;
+    height:65%;
+    width:50%;
+    overflow:hidden;
+}
+div[class="Menu"]{
+    position: absolute;
+    top:7%;
+    left:75%;
+    width:100%;
+    height:90%;
+    visibility:hidden;
+}
+#A{
+    position:absolute;
+    left:70%;
+    height:25%;
+    width:25%;
+    text-align:center;
+}
+#P{
+    position:absolute;
+    height:25%;
+    width:25%;
+    text-align: center;
+}
+#O{
+    position:absolute;
+    top:50%;
+    width:25%;
+    height:25%;
+    text-align: center;
+}
+#NA{
+    position:absolute;
+    left:70%;
+    height:25%;
+    width:25%;
+    top:50%;
+    text-align:center;
+}
+#S{
+    position:absolute;
+    left:40%;
+    top:75%;
+    width:15%;
+}
+#V{
+    position:absolute;
+    left:40%;
+    top:83%;
+    width:15%;
+}
+#Change{
+    position:absolute;
+    left:40%;
+    top:91%;
+    width:15%;
+    font-size: auto;
+}
+body>div[class="buttons"]>button:enabled{
+    border:2px orangered solid;
+    color:orangered;
+    background-color:white;
+    font-size:1.5vw;
+    font-weight:bolder;
+    transition-duration: 0.5s;
+    cursor:pointer;
+    overflow:hidden;
+}
+body>div[class="buttons"]>button:disabled{
+    border:2px black solid;
+    color:orangered;
+    background-color:white;
+    font-size:1.5vw;
+    font-weight:bolder;
+    cursor:not-allowed;
+    overflow:hidden;
+}
+div[class="buttons"]>button:enabled:hover{
+    background-color:orangered;
+    color:white;
+}
+div[class="Menu"]>button:hover{
+    background-color:orangered;
+    color:white;
+}
+div[class="Menu"]>button{
+    border:2px orangered solid;
+    color:orangered;
+    font-weight: bolder;   
+    font-size:1.5vw; 
+    width:24%;
+    height:20%;
+    background-color:white;
+    transition-duration: 0.5s;    
+}
+
+
