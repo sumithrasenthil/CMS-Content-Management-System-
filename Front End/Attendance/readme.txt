@@ -1,1 +1,1 @@
-This is a mock front-end for the attendance page of CMS app.
+This is a mock front-end for the attendance dashboard.
